@@ -112,21 +112,21 @@
                         android:paddingBottom="13dp" />
 
                     <SeekBar
-                        android:id="@+id/seekBarBase"
+                        android:id="@+id/seekBarAntebrazo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="13dp"
                         android:paddingBottom="13dp" />
 
                     <SeekBar
-                        android:id="@+id/seekBarAntebrazo"
+                        android:id="@+id/seekBarBrazo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="13dp"
                         android:paddingBottom="13dp"/>
 
                     <SeekBar
-                        android:id="@+id/seekBarBrazo"
+                        android:id="@+id/seekBarBase"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="13dp"

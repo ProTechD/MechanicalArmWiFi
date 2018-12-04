@@ -36,7 +36,7 @@ public class InteractuarFragment extends Fragment {
 
     Button connect;
     EditText ipServer;
-    TextView estado, pinza, antebrazo, brazo, base;
+    TextView estado;
 
     SeekBar seekbarPinza, seekbarAntebrazo, seekbarBrazo, seekbarBase;
 
@@ -92,7 +92,7 @@ public class InteractuarFragment extends Fragment {
                 String intensisin = "";
                 conf1 = progress;
                 intensisin="gradospinza" + "?g=" + String.valueOf(conf1);
-                pinza.setText("Pinza ("+String.valueOf(conf1)+")");
+                //pinza.setText("Pinza ("+String.valueOf(conf1)+")");
                 MyClientTask taskEsp = new MyClientTask(address);
                 taskEsp.execute(intensisin);
             }
@@ -113,7 +113,7 @@ public class InteractuarFragment extends Fragment {
                 String intensisin = "";
                 conf2 = progress;
                 intensisin="gradosantebrazo" + "?g=" + String.valueOf(conf2);
-                antebrazo.setText("Pinza ("+String.valueOf(conf2)+")");
+                //antebrazo.setText("Pinza ("+String.valueOf(conf2)+")");
                 MyClientTask taskEsp = new MyClientTask(address);
                 taskEsp.execute(intensisin);
             }
@@ -134,7 +134,7 @@ public class InteractuarFragment extends Fragment {
                 String intensisin = "";
                 conf3 = progress;
                 intensisin="gradosbrazo" + "?g=" + String.valueOf(conf3);
-                brazo.setText("Pinza ("+String.valueOf(conf3)+")");
+                //brazo.setText("Pinza ("+String.valueOf(conf3)+")");
                 MyClientTask taskEsp = new MyClientTask(address);
                 taskEsp.execute(intensisin);
             }
@@ -155,7 +155,7 @@ public class InteractuarFragment extends Fragment {
                 String intensisin = "";
                 conf4 = progress;
                 intensisin="gradosbase" + "?g=" + String.valueOf(conf4);
-                base.setText("Pinza ("+String.valueOf(conf4)+")");
+                //base.setText("Pinza ("+String.valueOf(conf4)+")");
                 MyClientTask taskEsp = new MyClientTask(address);
                 taskEsp.execute(intensisin);
             }
