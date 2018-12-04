@@ -70,6 +70,7 @@ public class InteractuarFragment extends Fragment {
 
         seekbarAntebrazo = (SeekBar) view.findViewById(R.id.seekBarAntebrazo);
         seekbarAntebrazo.setMax(180);
+        seekbarAntebrazo.setProgress(150);
 
         seekbarBrazo = (SeekBar) view.findViewById(R.id.seekBarBrazo);
         seekbarBrazo.setMax(180);
