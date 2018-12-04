@@ -67,7 +67,7 @@ public class InteractuarFragment extends Fragment {
 
         seekbarPinza = (SeekBar) view.findViewById(R.id.seekBarPinzas);
         seekbarPinza.setMax(180);
-        seekbarAntebrazo.setProgress(15);
+        seekbarPinza.setProgress(15);
 
         seekbarAntebrazo = (SeekBar) view.findViewById(R.id.seekBarAntebrazo);
         seekbarAntebrazo.setMax(180);
@@ -75,11 +75,11 @@ public class InteractuarFragment extends Fragment {
 
         seekbarBrazo = (SeekBar) view.findViewById(R.id.seekBarBrazo);
         seekbarBrazo.setMax(180);
-        seekbarAntebrazo.setProgress(0);
+        seekbarBrazo.setProgress(0);
 
         seekbarBase = (SeekBar) view.findViewById(R.id.seekBarBase);
         seekbarBase.setMax(180);
-        seekbarAntebrazo.setProgress(10);
+        seekbarBase.setProgress(10);
 
         connect.setOnClickListener(connectOnClickListener);
 
